@@ -36,11 +36,20 @@ html , body {
     font-weight: 500;
 }
 
+.pattern {
+    position: absolute;
+    width: 104px;
+    height: 102px;
+    top: 164px;
+    left: 521px;
+}
+
 .item__description__1 {
     font-size: 20px;
     font-weight: 600;
     color: white;
     margin-top: 8px;
+    position: relative;
 }
 
 .item__experience__1 {
@@ -261,6 +270,11 @@ html , body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .pattern {
+        top: 72px;
+        left: 219px;
     }
 
     .grid__container {
